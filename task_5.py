@@ -6,7 +6,7 @@ Created on 29.08.2018
 """
 
 # ------------------------------------------------------------------------------
-# Фунции сортировки людей по возрасту (sortByAge) и имени (sortByName),
+# Функции сортировки людей по возрасту (sortByAge) и имени (sortByName),
 # сортируют массив по именам (в алфавитном порядке) и возрасту (по убыванию).
 # Вызываем только sortByAge.
 # ------------------------------------------------------------------------------
@@ -26,7 +26,7 @@ def sortByAge(data):
         age.sort(reverse=True)
         print('sortByAge', age)
     else:
-        print('Sort data by name error')
+        print('Sort data by age error')
 
 sortByAge(data)
 
