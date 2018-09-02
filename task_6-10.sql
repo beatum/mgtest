@@ -8,6 +8,7 @@ CREATE TABLE DEPARTMENT
     id integer PRIMARY KEY NOT NULL,
     name varchar(200)
 );
+
 INSERT INTO DEPARTMENT (name) VALUES ('1', 'Департамент 1');
 INSERT INTO DEPARTMENT (name) VALUES ('2', 'Департамент 2');
 INSERT INTO DEPARTMENT (name) VALUES ('3', 'Департамент 3');
@@ -15,7 +16,6 @@ INSERT INTO DEPARTMENT (name) VALUES ('4', 'Департамент 3');
 INSERT INTO DEPARTMENT (name) VALUES ('5', 'Департамент 5');
 INSERT INTO DEPARTMENT (name) VALUES ('6', 'Департамент 6');
 INSERT INTO DEPARTMENT (name) VALUES ('7', 'Департамент 7');
-
 
 CREATE TABLE EMPLOEYEE
 (
@@ -53,7 +53,6 @@ INSERT INTO EMPLOEYEE (name, department_id, salary, chief_id) VALUES ('Марф�
 INSERT INTO EMPLOEYEE (name, department_id, salary, chief_id) VALUES ('Софа', 4, 200, 7);
 INSERT INTO EMPLOEYEE (name, department_id, salary, chief_id) VALUES ('Уля', 3, 100, 8);
 INSERT INTO EMPLOEYEE (name, department_id, salary, chief_id) VALUES ('Зоя', 1, 500, 2);
-
 
 -- Задание 1
 -- сотрудники з/п которых больше чем у руководителя
