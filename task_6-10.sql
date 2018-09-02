@@ -28,31 +28,31 @@ CREATE TABLE EMPLOEYEE
     FOREIGN KEY (department_id) REFERENCES DEPARTMENT (id)
 );
 
-INSERT INTO EMPLOEYEE (name, department_id, salary, chief_id) VALUES ('Пётр', 1, 300, 1);
-INSERT INTO EMPLOEYEE (name, department_id, salary, chief_id) VALUES ('Вася', 2, 400, 2);
-INSERT INTO EMPLOEYEE (name, department_id, salary, chief_id) VALUES ('Фёдор', 3, 500, 3);
-INSERT INTO EMPLOEYEE (name, department_id, salary, chief_id) VALUES ('Петрович', 1, 600, 1);
-INSERT INTO EMPLOEYEE (name, department_id, salary, chief_id) VALUES ('Семён', 7, 350, 3);
-INSERT INTO EMPLOEYEE (name, department_id, salary, chief_id) VALUES ('Игнат', 4, 400, 6);
-INSERT INTO EMPLOEYEE (name, department_id, salary, chief_id) VALUES ('Маша', 2, 380, 2);
-INSERT INTO EMPLOEYEE (name, department_id, salary, chief_id) VALUES ('Света', 6, 400, 3);
-INSERT INTO EMPLOEYEE (name, department_id, salary, chief_id) VALUES ('Юля', 7, 400, 4);
-INSERT INTO EMPLOEYEE (name, department_id, salary, chief_id) VALUES ('Трофим', 6, 500, 5);
-INSERT INTO EMPLOEYEE (name, department_id, salary, chief_id) VALUES ('Ульяна', 5, 400, 6);
-INSERT INTO EMPLOEYEE (name, department_id, salary, chief_id) VALUES ('Соня', 3, 100, 8);
-INSERT INTO EMPLOEYEE (name, department_id, salary, chief_id) VALUES ('Серёжа', 3, 400, 8);
-INSERT INTO EMPLOEYEE (name, department_id, salary, chief_id) VALUES ('Афоня', 5, 300, 5);
-INSERT INTO EMPLOEYEE (name, department_id, salary, chief_id) VALUES ('Миша', 3, 200, 6);
-INSERT INTO EMPLOEYEE (name, department_id, salary, chief_id) VALUES ('Афанасий', 2, 350, 2);
-INSERT INTO EMPLOEYEE (name, department_id, salary, chief_id) VALUES ('Жора', 3, 460, 3);
-INSERT INTO EMPLOEYEE (name, department_id, salary, chief_id) VALUES ('Тимофей', 1, 620, 2);
-INSERT INTO EMPLOEYEE (name, department_id, salary, chief_id) VALUES ('Сёма', 5, 460, 3);
-INSERT INTO EMPLOEYEE (name, department_id, salary, chief_id) VALUES ('Алекс', 7, 600, 3);
-INSERT INTO EMPLOEYEE (name, department_id, salary, chief_id) VALUES ('Юля', 7, 400, 6);
-INSERT INTO EMPLOEYEE (name, department_id, salary, chief_id) VALUES ('Марфа', 5, 300, 8);
-INSERT INTO EMPLOEYEE (name, department_id, salary, chief_id) VALUES ('Софа', 4, 200, 7);
-INSERT INTO EMPLOEYEE (name, department_id, salary, chief_id) VALUES ('Уля', 3, 100, 8);
-INSERT INTO EMPLOEYEE (name, department_id, salary, chief_id) VALUES ('Зоя', 1, 500, 2);
+INSERT INTO EMPLOEYEE (name, department_id, salary, chief_id) VALUES ('1', 'Пётр', 1, 300, 1);
+INSERT INTO EMPLOEYEE (name, department_id, salary, chief_id) VALUES ('2', 'Вася', 2, 400, 2);
+INSERT INTO EMPLOEYEE (name, department_id, salary, chief_id) VALUES ('3', 'Фёдор', 3, 500, 3);
+INSERT INTO EMPLOEYEE (name, department_id, salary, chief_id) VALUES ('4', 'Петрович', 1, 600, 1);
+INSERT INTO EMPLOEYEE (name, department_id, salary, chief_id) VALUES ('5', 'Семён', 7, 350, 3);
+INSERT INTO EMPLOEYEE (name, department_id, salary, chief_id) VALUES ('6', 'Игнат', 4, 400, 6);
+INSERT INTO EMPLOEYEE (name, department_id, salary, chief_id) VALUES ('7', 'Маша', 2, 380, 2);
+INSERT INTO EMPLOEYEE (name, department_id, salary, chief_id) VALUES ('8', 'Света', 6, 400, 3);
+INSERT INTO EMPLOEYEE (name, department_id, salary, chief_id) VALUES ('9', 'Юля', 7, 400, 4);
+INSERT INTO EMPLOEYEE (name, department_id, salary, chief_id) VALUES ('10', 'Трофим', 6, 500, 5);
+INSERT INTO EMPLOEYEE (name, department_id, salary, chief_id) VALUES ('11', 'Ульяна', 5, 400, 6);
+INSERT INTO EMPLOEYEE (name, department_id, salary, chief_id) VALUES ('12', 'Соня', 3, 100, 8);
+INSERT INTO EMPLOEYEE (name, department_id, salary, chief_id) VALUES ('13', 'Серёжа', 3, 400, 8);
+INSERT INTO EMPLOEYEE (name, department_id, salary, chief_id) VALUES ('14', 'Афоня', 5, 300, 5);
+INSERT INTO EMPLOEYEE (name, department_id, salary, chief_id) VALUES ('15', 'Миша', 3, 200, 6);
+INSERT INTO EMPLOEYEE (name, department_id, salary, chief_id) VALUES ('16', 'Афанасий', 2, 350, 2);
+INSERT INTO EMPLOEYEE (name, department_id, salary, chief_id) VALUES ('17', 'Жора', 3, 460, 3);
+INSERT INTO EMPLOEYEE (name, department_id, salary, chief_id) VALUES ('18', 'Тимофей', 1, 620, 2);
+INSERT INTO EMPLOEYEE (name, department_id, salary, chief_id) VALUES ('19', 'Сёма', 5, 460, 3);
+INSERT INTO EMPLOEYEE (name, department_id, salary, chief_id) VALUES ('20', 'Алекс', 7, 600, 3);
+INSERT INTO EMPLOEYEE (name, department_id, salary, chief_id) VALUES ('21', 'Юля', 7, 400, 6);
+INSERT INTO EMPLOEYEE (name, department_id, salary, chief_id) VALUES ('22', 'Марфа', 5, 300, 8);
+INSERT INTO EMPLOEYEE (name, department_id, salary, chief_id) VALUES ('23', 'Софа', 4, 200, 7);
+INSERT INTO EMPLOEYEE (name, department_id, salary, chief_id) VALUES ('24', 'Уля', 3, 100, 8);
+INSERT INTO EMPLOEYEE (name, department_id, salary, chief_id) VALUES ('25', 'Зоя', 1, 500, 2);
 
 -- Задание 1
 -- сотрудники з/п которых больше чем у руководителя
