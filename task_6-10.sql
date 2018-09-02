@@ -62,7 +62,7 @@ chief.name AS ChiefName,
 chief.salary AS ChiefSalary,
 EMPLOEYEE.name AS PersonName,
 EMPLOEYEE.salary AS PersonSalary
-FROM EMPLOEYEE chief INNER JOIN EMPLOEYEE
+FROM EMPLOEYEE chief JOIN EMPLOEYEE
 ON chief.chief_id = EMPLOEYEE.id
 AND EMPLOEYEE.salary > chief.salary
 ORDER BY chief.salary DESC, EMPLOEYEE.name;
